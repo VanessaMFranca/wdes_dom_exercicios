@@ -1,3 +1,11 @@
+body {
+	background-color: white;
+}
+
+.dark {
+	background-color: #222;
+}
+
 .container{
 	max-width: 500px;
 	padding: 10px 20px;
@@ -80,4 +88,23 @@
 .container input[type="button"]:hover
 {
 	background: #109177;
+}
+
+.container ul {
+	padding-left: 0;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.container ul li {
+	list-style: none;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #1abc9c;
+	color: white;
+	padding: 10px;
+	margin-bottom: 4px;
+}
+
+.right {
+	float: right;
 }
