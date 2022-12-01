@@ -52,7 +52,7 @@ body {
 	-moz-box-sizing: border-box; 
 	background-color: #e8eeef;
 	color:#677378;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .container input[type="text"]:focus,
 .container input[type="date"]:focus,
@@ -102,6 +102,11 @@ body {
 	color: white;
 	padding: 10px;
 	margin-bottom: 4px;
+}
+
+a[name="limpar"] {
+	text-align: center;
+	display: block;
 }
 
 .right {

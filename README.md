@@ -32,3 +32,7 @@ Quando o usuário clicar no link 'Limpar', remover qualquer texto que tenha sido
 **Exercício 07**
 -----------
 Quando o usuário clicar no link 'Acessar', adicionar um novo item na lista de e-mails (`<ul>`).
+
+**Exercício 08**
+-----------
+Quando o usuário clicar no link 'Modo Dark', adicionar a classe `.dark` na tag `body`. Utilize a função `toggle` para que a classe dark seja adicionada ou removida conforme clicar no botão.
