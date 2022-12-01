@@ -59,8 +59,7 @@
 	background: #d2d9dd;
 }
 
-.container input[type="submit"],
-.container input[type="button"]
+.container button
 {
 	position: relative;
 	display: block;
