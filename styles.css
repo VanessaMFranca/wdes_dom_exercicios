@@ -1,0 +1,83 @@
+.container{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container fieldset{
+	border: none;
+}
+.container legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.container label {
+	display: block;
+	margin-bottom: 8px;
+}
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="date"],
+.container input[type="datetime"],
+.container input[type="email"],
+.container input[type="number"],
+.container input[type="search"],
+.container input[type="time"],
+.container input[type="url"],
+.container textarea,
+.container select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#677378;
+	margin-bottom: 30px;
+}
+.container input[type="text"]:focus,
+.container input[type="date"]:focus,
+.container input[type="datetime"]:focus,
+.container input[type="email"]:focus,
+.container input[type="number"]:focus,
+.container input[type="search"]:focus,
+.container input[type="time"]:focus,
+.container input[type="url"]:focus,
+.container textarea:focus,
+.container select:focus{
+	background: #d2d9dd;
+}
+
+.container input[type="submit"],
+.container input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.container input[type="submit"]:hover,
+.container input[type="button"]:hover
+{
+	background: #109177;
+}
