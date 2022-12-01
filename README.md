@@ -10,29 +10,25 @@ Adicione um label para cada input: `email, senha`. Não esqueça da propriedade 
 
 **Exercício 02**
 -----------
-Adicione uma validação em cada input que mostre uma mensagem de erro próximo ao input que não estiver preenchido 
+Ao submeter o formulário. Faça uma validação em cada input que mostre uma mensagem de erro próximo ao input que não estiver preenchido. Para isso, você precisará adicionar a classe `.visivel` na tag `span` que fica ao lado de cada caixa de texto. [Exemplo](https://www.freecodecamp.org/news/form-validation-with-html5-and-javascript)
 
 **Exercício 03**
 -----------
-Certifique-se de que o botão 'Acessar' esteja desabilitado até que o usuário tenha inserido dados válidos em todos os campos de entrada. Depois disso, o botão de login deve ser ativado.
-
-**Exercício 04**
------------
 Quando o usuário clicar no botão 'Acessar', uma mensagem deve ser exibida informando que o login foi efetuado com sucesso.
 
-**Exercício 05**
+**Exercício 04**
 -----------
 Quando o usuário clicar no botão 'Acessar', faça:
 - Se o e-mail for `teste@gmail.com` e a senha for `123456`, mude a cor de fundo do botão para verde. Caso contrário, vermelho.
 
-**Exercício 06**
+**Exercício 05**
 -----------
 Quando o usuário clicar no link 'Limpar', remover qualquer texto que tenha sido inserido nos campus `e-mail e senha`.
 
-**Exercício 07**
+**Exercício 06**
 -----------
 Quando o usuário clicar no link 'Acessar', adicionar um novo item na lista de e-mails (`<ul>`).
 
-**Exercício 08**
+**Exercício 07**
 -----------
 Quando o usuário clicar no link 'Modo Dark', adicionar a classe `.dark` na tag `body`. Utilize a função `toggle` para que a classe dark seja adicionada ou removida conforme clicar no botão.

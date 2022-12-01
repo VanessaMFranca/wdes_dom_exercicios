@@ -18,10 +18,17 @@
             <fieldset>
                 <!-- Adicionar o Label Aqui -->
                 <input type="email" id="email" name="email" placeholder="Seu e-mail *">
+                <span role="alert" id="email-error" aria-hidden="true">
+                    Informe seu e-mail
+                </span>
+
                 <!-- Adicionar o Label Aqui -->
                 <input type="password" id="senha" name="senha" placeholder="Sua senha *">
+                <span role="alert" id="senha-error" aria-hidden="true">
+                    Informe sua senha
+                </span>
             </fieldset>
-            <button type="button" name="acessar">Acessar</button>
+            <button type="submit" name="acessar" disabled="true">Acessar</button>
             <a href="#" name="limpar">Limpar</a>
         </form>
     </div>
