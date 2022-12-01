@@ -28,3 +28,7 @@ Quando o usuário clicar no botão 'Acessar', faça:
 **Exercício 06**
 -----------
 Quando o usuário clicar no link 'Limpar', remover qualquer texto que tenha sido inserido nos campus `e-mail e senha`.
+
+**Exercício 07**
+-----------
+Quando o usuário clicar no link 'Acessar', adicionar um novo item na lista de e-mails (`<ul>`).
