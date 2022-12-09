@@ -17,19 +17,19 @@
             <legend>Login Form</legend>
             <fieldset>
                 <p class="mensagem"></p>
-                <!-- Adicionar o Label Aqui -->
-                <input type="email" id="email" name="email" placeholder="Seu e-mail *">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail *" value="teste@gmail.com">
                 <span role="alert" id="email-error" aria-hidden="true">
                     Informe seu e-mail
                 </span>
 
-                <!-- Adicionar o Label Aqui -->
-                <input type="password" id="senha" name="senha" placeholder="Sua senha *">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Sua senha *" value="123456">
                 <span role="alert" id="senha-error" aria-hidden="true">
                     Informe sua senha
                 </span>
             </fieldset>
-            <button type="submit" name="acessar" disabled="true">Acessar</button>
+            <button type="submit" name="acessar">Acessar</button>
             <a href="#" name="limpar">Limpar</a>
         </form>
     </div>
